@@ -1,4 +1,79 @@
-.header{
-display: flex;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: azure;
 }
 
+section{
+  /* background-color: pink; */
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.container{
+width: 80%;
+background-color: white;
+height: 100%;
+/* padding-bottom: 20%; */
+/* margin: 10% 0 ; */
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  border-bottom: 1px solid black;
+  height: 50px;
+
+}
+header span{
+  /* margin: 10px; */
+}
+
+form input{
+  /* background-color: green; */
+  /* width: 94vw; */
+  font-style: italic;
+  height: 50px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.clear{
+  background-color: rgb(231, 239, 236);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px;
+}
+
+.createdList{
+  list-style: none;
+}
+
+.createdList li {
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+  /* margin: 2px; */
+}
+
+.createdList input{
+  margin-right: 8px;
+}
