@@ -1,15 +1,31 @@
 const ulList = document.querySelector('.createdList');
 
 const list = [
-  { description: ['wash cups', 'goods for sale', 'clean the house', 'yello yellow'] },
-  { completed: [false, false, false, false] },
-  { index: [1, 2, 3, 4] },
-
+  {
+    description: 'Washing cups',
+    completed: false,
+    index: 1,
+  },
+  {
+    description: 'Utilising discussion time',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Using program time',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Go on zoom call',
+    completed: false,
+    index: 2,
+  },
 ];
 
 const iterate = () => {
-  for (let i = 0; i < list[0].description.length; i += 1) {
-    ulList.innerHTML += `<li><input type="checkbox"/>${list[0].description[i]}</li>`;
+  for (let i = 0; i < list.length; i += 1) {
+    ulList.innerHTML += `<li><input type="checkbox"/>${list[i].description}</li>`;
   }
 };
 

@@ -121,13 +121,13 @@ Clone the code from project using terminal into your local machine and then inst
 
 Install node_modules dependencies by:
 
->running npm install or yarn install
+>running npm install on windows or sudo npm install on mac
 
 ### Usage
 
 To run the project, execute the following command:
 
->right click on index.html and open with live server
+>run npm start in the terminal of your code editor
 
 ### Run tests
 
@@ -150,6 +150,8 @@ This project will be deployed using github pages
 👤 **Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/BenjaminMatembe)
+- LinkedInn: [@linkedInnhandle](https://www.linkedin.com/in/matembe-benjamin-b7274122a/)
+- Twitter: [@twitterhandle](https://twitter.com/Glenmata2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
