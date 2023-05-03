@@ -1,26 +1,26 @@
 const ulList = document.querySelector('.createdList');
 
 const list = [
-  {
-    description: 'Washing cups',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'Utilising discussion time',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'Using program time',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'Go on zoom call',
-    completed: false,
-    index: 2,
-  },
+  // {
+  //   description: 'Washing cups',
+  //   completed: false,
+  //   index: 1,
+  // },
+  // {
+  //   description: 'Utilising discussion time',
+  //   completed: false,
+  //   index: 2,
+  // },
+  // {
+  //   description: 'Using program time',
+  //   completed: false,
+  //   index: 2,
+  // },
+  // {
+  //   description: 'Go on zoom call',
+  //   completed: false,
+  //   index: 2,
+  // },
 ];
 
 const iterate = () => {
