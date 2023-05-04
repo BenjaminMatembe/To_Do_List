@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
-body{
+
+body {
   background-color: rgb(164, 170, 168);
 }
 
-main{
+main {
   background-color: aliceblue;
 }
-/* 
-h1 {
-  font-size: 1rem;
-  text-align: center;
-  margin: 1rem;
-  display: none;
-} */
 
 section#parent {
   display: flex;
@@ -29,9 +22,7 @@ section#parent {
   border-radius: 5px;
   width: 93%;
   margin: 5em auto;
-
 }
-
 
 .clear-completed-todos {
   display: flex;
@@ -50,18 +41,6 @@ section#parent {
   width: 100%;
   padding: 0.5em 0.5em;
 }
-/* 
-.title {
-  font-size: 1rem;
-  margin: 0;
-  font-weight: normal;
-} */
-/* 
-.refresh-icon {
-  cursor: pointer;
-  width: 1rem;
-  height: 1rem;
-} */
 
 .input-box {
   width: 100%;
@@ -79,16 +58,9 @@ section#parent {
 
 .todoText {
   width: 92%;
-  /* font-size: 1rem; */
-  /* margin: 0; */
-  /* font-weight: normal; */
   border: none;
   offset: none;
-  
 }
-
-
-
 
 .form {
   display: flex;
@@ -97,22 +69,9 @@ section#parent {
   width: 100%;
 }
 
-
 .todos-container {
   width: 100%;
 }
-/* 
-.dots-icon {
-  cursor: all-scroll;
-  width: 1rem;
-  height: 1rem;
-} */
-/* 
-.delete-icon {
-  cursor: pointer;
-  width: 0.5rem;
-  height: 0.5rem;
-} */
 
 .item-element {
   display: flex;
@@ -121,6 +80,4 @@ section#parent {
   border-bottom: 1px solid rgb(19, 4, 4);
   width: 100%;
   padding: 0.5em 0.5em;
-  
 }
-
