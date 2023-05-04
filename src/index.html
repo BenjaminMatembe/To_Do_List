@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To_Do_List</title>
-</head>
-<body>
-<section>
-  <div class="container">
 
-    <header>
-        <span>Todays To Do</span>
-        <span>Recycle</span>
-       </header>
-        <form>
-            <input type="text" placeholder="Add to your list.....">
-        </form>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Benjamin To Do List</title>
+    </head>
 
-        <ul class="createdList">
+    <body>
+        <main>
+        <section id="parent">
+            <section class="header">
+                <h3>Today's To Do List</h3>
+            </section>
+            <section class="input-box">
+                <input type="text" class="Text" id="input-area" placeholder='Add to your list...'>
 
-        </ul>
-        <div class="clear"><p>Clear all Completed</p></div>
-  </div>
- 
-</section>
-</body>
+            </section>
+            <section class="todos-container">
+                <ul class="listedTodos"></ul>
+            </section>
+            <button class="clear-completed-todos" >Clear all completed</button>
+        </section>
+        </main>
+    </body>
+
 </html>
