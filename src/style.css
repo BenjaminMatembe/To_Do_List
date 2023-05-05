@@ -44,16 +44,12 @@ section#parent {
 
 .input-box {
   width: 100%;
+  display: flex;
 }
 
 .Text {
   width: 100%;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-right: none;
-  border-left: none;
-  font-style: italic;
-  color: #ccc;
+  padding: 0.5em;
 }
 
 .todoText {
