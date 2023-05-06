@@ -52,8 +52,19 @@ addOfInput.addEventListener('keypress', (e) => {
 const clearAllChecked = document.querySelector('.clear-completed-todos');
 clearAllChecked.addEventListener('click', () => {
   const arrayTask = todoArray.filter((task) => task.completed === false);
+  refreshButton();
   localStorage.setItem('storedTasks', JSON.stringify(arrayTask));
-  window.location.reload();
+  const todoList = document.querySelector('.listedTodos');
+  arrayTask.forEach((item) => {
+    todoArray.push(item);
+    todoList.innerHTML += `<li class="item-element">
+    <form class="form">
+      <input type="checkbox" class="checkbox">
+      <input type="text" class="todoText" value= "${item.description}">
+    </form>
+      <button type="button">delete</button>
+    </li>`;
+  });
+  addToToDoList();
 });
-
 addToToDoList();
