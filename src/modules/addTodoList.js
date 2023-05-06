@@ -1,5 +1,7 @@
 import { todoArray, saveDataInLocalStorage } from './storage.js';
 
+import runCheckers from './checking.js';
+
 const addToToDoList = () => {
   const todoList = document.querySelector('.listedTodos');
   todoList.innerHTML = '';
@@ -30,6 +32,7 @@ const addToToDoList = () => {
     checkbox.type = 'checkbox';
     checkbox.className = 'checkbox';
     checkbox.type = 'checkbox';
+    checkbox.checked = todoArray[index].completed ? 'checked' : '';
     tasksForm.appendChild(checkbox);
 
     const input = document.createElement('input');
@@ -42,6 +45,11 @@ const addToToDoList = () => {
     buttonForDelete.textContent = 'delete';
     buttonForDelete.type = 'button';
     taskElementTag.appendChild(buttonForDelete);
+
+    checkbox.addEventListener('click', () => {
+      runCheckers(i);
+      addToToDoList();
+    });
 
     input.addEventListener('input', () => {
       todoArray[i].description = input.value;
